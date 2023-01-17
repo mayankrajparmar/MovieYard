@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>MovieYard.Com</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+    <div class = "logo">
+        <div class = "logo-container">
+           <p>Movie<span>Yard</span></p>
+        </div>
+    </div>
+    </nav>
+    <div class="container">
+        <div class="search-container">
+            <div class="title-container">
+                <input class="title" id = "title-search-box" placeholder="Search by Title" type="text" name="title">
+                <input class="titleyear" id = "year-search-box" placeholder="Year" type="text" name="year">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js" ></script>
+  </body>
+</html>
